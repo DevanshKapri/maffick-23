@@ -1799,13 +1799,13 @@ header #b-menu-close {
 }
 
 #contact_form input[type=submit].btn-line {
-    background: none;
     padding: 8px 20px;
+    background-color: var(--primary-color-1);
 }
 
 #contact_form input[type=submit].btn-line:hover {
-    background: #111;
-    border-color: #111;
+    color: #fff;
+    opacity: .8;
 }
 
 #contact_form textarea {
