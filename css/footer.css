@@ -15,6 +15,7 @@ footer {
 .date {
   font-size: 35px;
   color: var(--primary-color-1);
+  text-align: center;
 }
 
 .college {
@@ -31,10 +32,68 @@ footer {
   text-align: center;
 }
 .social-icons {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  /* margin-top: 40px;
+  margin-bottom: 20px; */
+  
 }
 
-/* .social-icons a i {
-    font-size: 30px;
-} */
+.contact_details {
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.number div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.number p {
+  margin: 0;
+  padding: 0;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email a{
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+   #section-hero .logo {
+    width: 400px;
+  }
+  .countdown-s2 {
+    width: 300px;
+  }
+  .countdown-s2 div {
+    font-size: 100px;
+  }
+  .footer_content {
+    width: 80%;
+  }
+  .college {
+    width: 80%;
+  }
+  .contact_details {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #section-hero .logo {
+    width: 90%;
+  }
+}
+

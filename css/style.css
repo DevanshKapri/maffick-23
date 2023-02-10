@@ -5622,9 +5622,6 @@ a.img-icon-zoom {
     width: 100%;
 }
 
-margin:5px;
-}
-
 /* clear fix */
 
 .grid:after {
@@ -5902,7 +5899,7 @@ img {
 }
 
 .de-flex-wrap {
-    background: display: flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -8421,3 +8418,4 @@ i.btn-action-hide {
             display: none;
         }
     }
+}
